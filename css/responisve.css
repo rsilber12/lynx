@@ -1,0 +1,140 @@
+
+@media (min-width: 1920px) {
+    .padding {
+        padding: 120px 8px;
+    }
+    
+}
+
+@media (max-width: 1399px) {
+    
+}
+
+@media (max-width: 1199px) {
+    .video-section .text1 {
+        font-size: calc(1.625rem + 4.5vw);
+    }
+    .video-section .text2 {
+        font-size: calc(1.625rem + 4.5vw);
+    }
+}
+
+@media (max-width: 991px) {
+    nav.navbar .container {
+        padding: 20px 0 20px 0;
+    }
+    .logo1 {
+        width: 160px;
+    }
+    .space-top{
+        padding-top: 84px;
+    }
+
+    nav.navbar .navbar-nav .nav-link {
+        padding: 15px 15px;
+    }
+
+    nav.navbar .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh !important;
+        background: #1b2a7e;
+        z-index: 99;
+    }
+
+    .banner1 {
+        padding-top: 18rem;
+    }
+
+    .nav.nav-tabs1 .nav-link {
+        padding: 6px 17px 5px 3px;
+        font-size: 9px;
+        margin: 2px 0;
+        margin-left: 4px;
+    }
+    
+    .nav.nav-tabs1 .nav-link:before {
+        width: 18px;
+        height: 18px;
+        left: -9px;
+        top: 3px;
+    }
+    
+    .nav.nav-tabs1 .nav-link:after {
+        width: 18px;
+        height: 18px;
+        right: -9px;
+        top: 3px;
+    }
+
+    .mission-box .img2 {
+        height: 300px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .padding {
+        padding: 80px 8px;
+    }
+    .logo1 {
+        width: 120px;
+    }
+    .space-top {
+        padding-top: 80px;
+    }
+    .mission-box {
+        padding: 40px;
+    }
+
+
+    .swiper1 .swiper-slide .overlay{
+        height: 60vh;
+    }
+
+    .header-top .btn.btn1 {
+        padding: 5px 10px;
+        font-size: .75rem;
+        min-width: auto;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .banner1 {
+        padding-top: 10rem;
+    }
+
+    .video-section {
+        height: 80vh;
+    }
+
+    .mission-box {
+        padding: 40px 24px;
+    }
+    .services-box {
+        padding: 40px 24px;
+    }
+
+    .level-box {
+        padding: 50px 40px;
+    }
+
+    .swiper1 .swiper-button-next:after, .swiper1 .swiper-button-prev:after {
+        font-size: 2rem;
+    }
+    
+    .swiper1 .swiper-button-next {
+        right: -40px;
+    }
+    
+    .swiper1 .swiper-button-prev {
+        left: -40px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+}
